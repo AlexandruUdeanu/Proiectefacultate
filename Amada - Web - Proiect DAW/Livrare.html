@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Previne deformarea site-ului pe alte device-uri-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="imagini/favicon.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Amada Restaurant & Pub</title>
+  </head>
+
+  <body class="bodyprincipal" background="imagini/bg1.jpeg" background-repeat="repeat">
+    <div class="bodynav">
+      <nav>
+        <ul>
+          <li><a href="Acasa.html">Acasa</a></li>
+          <li><a href="Meniu.html">Meniu</a></li>
+          <li><a href="Livrare.html">Livrari la domiciuliu</a></li>            
+          <li><a href="Desprenoi.html">Despre noi</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Scrap.html">Scrap</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!--Logo cu redirectionarea catre pagina acasa-->
+      <a href="Acasa.html">
+      <img src="imagini/logo-amada.png" alt="Amada - Restaurant & Pub" width=20% style="display: block; margin-left: auto; margin-right: auto;">
+      </a>
+    <hr>
+
+    <h1 align="middle" style="font-size: 34px;">Pagina de comenzi online a Restaurantului Amada</h1><br>
+    <h3 align="middle" color="red" style="font-size: 30px;">Informatii utile</h3><br>
+    <div style="text-indent: 2%; font-size: 28px; font-family: Arial, Helvetica, sans-serif;">
+      <p style="font-size: 18px;">Noul nostru numar de telefon este <b>0736-231-821</b></p>
+      <h3>Livrare:</h3>
+      <p style="font-size: 18px;">Suntem și pe Glovo, dar magazinul online clasic/(acest site) și livratorii noștrii vă stau în continuare la dispoziție.
+      Notă: Prețurile pe Glovo sunt mai mari cu 30-33% datorită comisionului și taxelor de transport reținute de Glovo.
+      Prețurile pe acest site sunt aceleași ca în Restaurant.
+      Orice alegeți - Glovo sau livratorii noștrii - vă stăm la dispoziție cu plăcere!</p>
+    </div>
+    <h3>Program de functionare:</h3>
+    <p style="font-size: 18px"><s>07<sup>00</sup> - 23<sup>00</sup></s></p><br>
+    <p style="font-size: 18px"><b>09<sup>00</sup> - 22<sup>30</sup></b></p>
+
+    <p>Asa venim spre tine:</p>
+    <audio controls>
+      <source src="Imagini/Run.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <form>
+      <label for="input_field">Va puteti lasa parerea despre despre restaurant / livrari:</label>
+      <input type="text" id="input_field" name="input_field">
+      <br><br>
+      <label for="input_field">Parerea dumneavoastra despre servire:</label><br>
+      <input type="radio">1<input type="radio">2<input type="radio">3<input type="radio">4<input type="radio">5
+      <br>
+      <p>Dar despre local?:</p>
+      <select name="parere">
+        <option>Suficienta</option>
+        <option>Buna</option>
+        <option>Foarte buna</option>
+      </select><br><br>
+      <input type="submit" value="Submit"><br>
+    </form>
